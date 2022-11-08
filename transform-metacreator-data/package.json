@@ -1,0 +1,11 @@
+{
+  "name": "transform-metacreator-data",
+  "version": "1.0.0",
+  "description": "Transform Spell data from MetaCreator into JSON importable in Foundry.",
+  "main": "app.js",
+  "author": "Jesper Wøldiche",
+  "license": "MIT",
+  "dependencies": {
+    "convert-csv-to-json": "^1.3.3"
+  }
+}

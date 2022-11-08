@@ -3,3 +3,6 @@
 **/data-source
 **/.DS_Store
 **/Thumbs.db
+
+!transform-metacreator-data/data-output/example-output.json
+!transform-metacreator-data/data-input/example-input.csv
