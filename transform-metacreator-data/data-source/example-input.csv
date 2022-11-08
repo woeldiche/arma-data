@@ -1,0 +1,409 @@
+type;name;technique;form;level;range;duration;target;ritual;requisite;difficulty;modifiers;source
+$$spell;Soothe Pains of the Beast;Creo;Animal;20;Touch;Mom;Ind;Ritual;;Base 15, +1 Touch;;ArMa5
+$$spell;True Rest of the Injured Brute;Creo;Animal;20;Touch;Moon;Ind;;;Base 4, +1 Touch, +3 Moon;;ArMa5
+$$spell;Weaver's Trap of Webs;Creo;Animal;35;Voice;Sun;Group;;;Base 5, +2 Voice, +2 Sun, +2 Group (total mass of the spiderwebs is still less than ten basic Individuals, so no size adjustment);;ArMa5
+$$spell;The Wizard's Mount;Creo;Animal;35;Touch;Sun;Ind;;;Base 15, +1 Touch, +2 Sun, +1 size;+1 size;ArMa5
+$$spell;Curse of the Ravenous Swarm;Creo;Animal;50;Touch;Moon;Group;Ritual;Rego;Base 5, +1 Touch, +3 Moon, +2 Group, +2 size, for a swarm weighing as much as one thousand pigs, +1 extra effect from requisite, ritual because it has a really major effect;+2 size,+1 requisite;ArMa5
+$$spell;Image of the Beast;Intellego;Animal;5;Arc;Mom;Ind;;;Base 1, +4 Arcane Connection;;ArMa5
+$$spell;Shiver of the Lycanthrope;Intellego;Animal;10;Per;Conc;Touch;;;Base 4, +1 Concentration, +1 Touch;;ArMa5
+$$spell;Opening the Tome of the Animal's Mind;Intellego;Animal;25;Touch;Conc;Ind;;;Base 15, +1 Touch, +1 Concentration;;ArMa5
+$$spell;Hunter's Sense;Intellego;Animal;30;Per;Sun;Hearing;;;Base 4, +2 Sun, +3 Hearing, +1 for shape and primary motivation;+1 for shape and primary motivation;ArMa5
+$$spell;Beast of Outlandish Size;Muto;Animal;15;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun;;ArMa5
+$$spell;Doublet of Impenetrable Silk;Muto;Animal;15;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun;;ArMa5
+$$spelleff;Bonus;b_soak+3;;;;;;;;;;ArMa5
+$$spell;Growth of the Creeping Things;Muto;Animal;15;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun;;ArMa5
+$$spell;Beast of Miniscule Proportions;Muto;Animal;20;Voice;Sun;Ind;;;Base: 4, +2 Voice, +2 Sun;;ArMa5
+$$spell;The Beast Remade;Muto;Animal;25;Touch;Sun;Ind;;Corpus;Base 10, +1 Touch, +2 Sun, no addition for requisite;;ArMa5
+$$spell;Transformation of the Ravenous Beast to the Torpid Toad;Muto;Animal;25;Voice;Sun;Ind;;;Base 5, +2 Voice, +2 Sun;;ArMa5
+$$spell;Steed of Vengeance;Muto;Animal;35;Touch;Sun;Ind;;;Base 15, +1 Touch, +2 Sun, +1 size;+1 size;ArMa5
+$$spell;Decay Fur and Hide;Perdo;Animal;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Agony of the Beast;Perdo;Animal;15;Voice;Conc;Ind;;;Base 4, +2 Voice, +1 Concentration;;ArMa5
+$$spell;Blunt the Viper's Fangs;Perdo;Animal;20;Voice;Mom;Ind;;;Base 5, +2 Voice, +1 size;+1 size;ArMa5
+$$spell;The Falcon's Hood;Perdo;Animal;25;Touch;Mom;Ind;;;Base 20, +1 Touch;;ArMa5
+$$spell;Cripple the Howling Wolf;Perdo;Animal;25;Voice;Mom;Ind;;;Base 15, +2 Voice;;ArMa5
+$$spell;Ward Against the Beasts of Legend;Rego;Animal;;Touch;Ring;Circle;;;As ward guideline;;ArMa5
+$$spell;Disguise of the Putrid Aroma;Rego;Animal;5;Voice;Conc;Ind;;;Base 2, +2 Voice, +1 Concentration;;ArMa5
+$$spell;Circle of Beast Warding;Rego;Animal;5;Touch;Ring;Circle;;;Base 2, +1 Touch, +2 Ring;;ArMa5
+$$spell;Soothe the Ferocious Bear;Rego;Animal;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Panic of the Elephant's Mouse;Rego;Animal;15;Eye;Conc;Ind;;;Base 5, +1 Eye, +1 Concentration;;ArMa5
+$$spell;Viper's Gaze;Rego;Animal;15;Eye;Conc;Ind;;;Base 5, +1 Eye, +1 Concentration;;ArMa5
+$$spell;The Gentle Beast;Rego;Animal;25;Eye;Conc;Ind;;;Base 10, +1 Eye, +1 Concentration, +1 size;+1 size;ArMa5
+$$spell;Mastering the Unruly Beast;Rego;Animal;25;Touch;Conc;Ind;;;Base 15, +1 Touch, +1 Concentration;;ArMa5
+$$spell;Commanding the Harnessed Beast;Rego;Animal;30;Touch;Sun;Ind;;;Base 15, +1 Touch, +2 Sun;;ArMa5
+$$spell;Words of the Unbroken Silence;Creo;Mentem;10;Sight;Mom;Ind;;;Base 3, +3 Sight;;ArMa5
+$$spell;Panic of the Trembling Heart;Creo;Mentem;15;Eye;Sun;Ind;;;Base 4, +1 Eye, +2 Sun;;ArMa5
+$$spell;Rising Ire;Creo;Mentem;15;Eye;Sun;Ind;;;Base 4, +1 Eye, +2 Sun;;ArMa5
+$$spell;Memory of the Distant Dream;Creo;Mentem;20;Eye;Sun;Ind;;;Base 5, +1 Eye, +2 Sun;;ArMa5
+$$spell;Pains of the Perpetual Worry;Creo;Mentem;20;Eye;Moon;Ind;;;Base 4, +1 Eye, +3 Moon;;ArMa5
+$$spell;Weight of a Thousand Hells;Creo;Mentem;25;Eye;Moon;Ind;;;Base 4, +1 Eye, +3 Moon, +1 complex effect;+1 complex effect;ArMa5
+$$spell;Gift of Reason;Creo;Mentem;35;Touch;Mom;Ind;Ritual;;Base 30, +1 Touch;;ArMa5
+$$spell;Sight of the Transparent Motive;Intellego;Mentem;10;Eye;Mom;Ind;;;Base 5, +1 Eye;;ArMa5
+$$spell;Perception of the Conflicting Motives;Intellego;Mentem;15;Eye;Mom;Ind;;;Base 10, +1 Eye;;ArMa5
+$$spell;Frosty Breath of the Spoken Lie;Intellego;Mentem;20;Eye;Conc;Ind;;;Base 10, +1 Eye, +1 Conc, mist is a purely cosmetic effect and thus is free;;ArMa5
+$$spell;Posing the Silent Question;Intellego;Mentem;20;Eye;Mom;Ind;;;Base 15, +1 Eye;;ArMa5
+$$spell;Thoughts Within Babble;Intellego;Mentem;25;Per;Conc;Hearing;;;Base 5, +1 Conc, +3 Hearing;;ArMa5
+$$spell;Peering into the Mortal Mind;Intellego;Mentem;30;Eye;Mom;Ind;;;Base 25, +1 Eye;;ArMa5
+$$spell;Recollection of Memories Never Quite Lived;Muto;Mentem;4;Eye;Sun;Ind;;;Base 1, +1 Eye, +2 Sun;;ArMa5
+$$spell;Mind of the Beast;Muto;Mentem;30;Eye;Sun;Ind;;Animal;Base 15, +1 Eye, +2 Sun;;ArMa5
+$$spell;Past of Another;Muto;Mentem;35;Eye;Year;Ind;Ritual;;Base 10, +1 Eye, +4 Year;;ArMa5
+$$spell;Inmost Companion;Muto;Mentem;40;Eye;Sun;Ind;;Animal;Base 25, +1 Eye, +2 Sun;;ArMa5
+$$spell;Vision of the Haunting Spirits;Muto;Mentem;40;Touch;Sun;Room;;Imaginem;Base 15, +1 Touch, +2 Sun, +2 Room;;ArMa5
+$$spell;Lay to Rest the Haunting Spirit;Perdo;Mentem;;Voice;Mom;Ind;;;Base effect;;ArMa5
+$$spell;Tip of the Tongue;Perdo;Mentem;5;Eye;Diam;Ind;;;Base 3, +1 Eye, +1 Diam;;ArMa5
+$$spell;Trust of Childlike Faith;Perdo;Mentem;10;Eye;Diam;Ind;;;Base 4, +1 Eye, +1 Diam;;ArMa5
+$$spell;Calm the Motion of the Heart;Perdo;Mentem;15;Voice;Mom;Ind;;;Base 5, +2 Voice;;ArMa5
+$$spell;Enchantment of Detachment;Perdo;Mentem;15;Eye;Sun;Ind;;;Base 4, +1 Eye, +2 Sun;;ArMa5
+$$spell;Loss of But a Moment's Memory;Perdo;Mentem;15;Eye;Mom;Ind;;;Base 10, +1 Eye;;ArMa5
+$$spell;Blessing of Childlike Bliss;Perdo;Mentem;25;Eye;Sun;Ind;;;Base 10, +1 Eye, +2 Sun;;ArMa5
+$$spell;Passion's Lost Feeling;Perdo;Mentem;25;Eye;Conc;Ind;;;Base 15, +1 Eye, +1 Conc;;ArMa5
+$$spell;Black Whisper;Perdo;Mentem;40;Touch;Moon;Ind;;;Base 15, +1 Touch, +3 Moon, +1 for not needing to gesture;+1 no gestures;ArMa5
+$$spell;Poisoning the Will;Perdo;Mentem;65;Touch;Moon;Bound;Ritual;;Base 4, +1 Touch, +3 Moon, +4 Bound, +5 size;+5 size;ArMa5
+$$spell;Ring of Warding Against Spirits;Rego;Mentem;;Touch;Ring;Circle;;;Base effect;;ArMa5
+$$spell;The Call to Slumber;Rego;Mentem;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Snap of Awakening;Rego;Mentem;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Confusion of the Numbed Will;Rego;Mentem;15;Eye;Sun;Ind;;;Base 4, +1 Eye, +2 Sun;;ArMa5
+$$spell;Aura of Rightful Authority;Rego;Mentem;20;Eye;Sun;Ind;;;Base 5, +1 Eye, +2 Sun;;ArMa5
+$$spell;Coerce the Spirits of the Night;Rego;Mentem;20;Voice;Conc;Ind;;;Base 5, +2 Voice, +1 Conc;;ArMa5
+$$spell;Scent of Peaceful Slumber;Rego;Mentem;20;Voice;Mom;Room;;;Base 4, +2 Voice, +2 Room;;ArMa5
+$$spell;Visions of the Infernal Terrors;Rego;Mentem;30;Voice;Sun;Ind;;;Base 10, +2 Voice, +2 Sun;;ArMa5
+$$spell;Enslave the Mortal Mind;Rego;Mentem;40;Eye;Sun;Ind;;;Base 25, +1 Eye, +2 Sun;;ArMa5
+$$spell;Incantation of Summoning the Dead;Rego;Mentem;40;Arc;Conc;Ind;Ritual;;Base 15, +4 Arc, +1 Conc;;ArMa5
+$$spell;The Shrouded Glen;Rego;Mentem;40;Touch;Year;Bound;Ritual;;Base 3, +1 Touch, +4 Year, +4 Bound;;ArMa5
+$$spell;Exchange of the Two Minds;Rego;Mentem;55;Touch;Year;Group;Ritual;;Base 20, +1 Touch, +4 Year, +2 Group;;ArMa5
+$$spell;Footsteps of Slippery Oil;Creo;Aquam;5;Touch;Diam;Ind;;;Base 3, +1 Touch, +1 Diam;;ArMa5
+$$spell;Creeping Oil;Creo;Aquam;15;Voice;Sun;Ind;;;Base 3, +2 Voice, +2 Sun;;ArMa5
+$$spell;Mighty Torrent of Water;Creo;Aquam;20;Voice;Mom;Ind;;;Base 10, +2 Voice;;ArMa5
+$$spell;Deluge of Rushing and Dashing;Creo;Aquam;40;Voice;Conc;Ind;;;Base 10, +2 Voice, +1 Concentration, +3 size, so that the whole stream floods;+3 size;ArMa5
+$$spell;Clear Sight of the Naiad;Intellego;Aquam;5;Per;Mom;Vision;;;Base 1, +4 Vision;;ArMa5
+$$spell;Subtle Taste of Poison and Purity;Intellego;Aquam;5;Per;Conc;Taste;;;Base 4, +1 Concentration;;ArMa5
+$$spell;Touch of the Pearls;Intellego;Aquam;5;Touch;Conc;Ind;;;Base 3, +1 Touch, +1 Concentration;;ArMa5
+$$spell;Call of the Rushing Waters;Intellego;Aquam;15;Arc;Conc;Ind;;;Base 2, +4 Arcane Connection, +1 Concentration;;ArMa5
+$$spell;Voice of the Lake;Intellego;Aquam;25;Touch;Conc;Ind;;;Base 15, +1 Touch, +1 Concentration;;ArMa5
+$$spell;Enchantment of the Scrying Pool;Intellego;Aquam;30;Touch;Year;Ind;Ritual;Imaginem;Special spell;;ArMa5
+$$spell;Incantation of Putrid Wine;Muto;Aquam;15;Touch;Sun;Room;;;Base 2, +1 Touch, +2 Sun, +2 Room;;ArMa5
+$$spell;Lungs of the Fish;Muto;Aquam;20;Touch;Sun;Part;;Auram;Base 4, +1 Touch, +2 Sun, +1 Part;;ArMa5
+$$spell;Vile Water of Sterility;Muto;Aquam;45;Touch;Year;Group;Ritual;;Base 4 (a very unnatural liquid), +1 Touch, +4 Year, +2 Group, +2 size;+2 size;ArMa5
+$$spell;Comfort of the Drenched Traveler;Perdo;Aquam;5;Touch;Mom;Ind;;;Base 4, +1 Touch;;ArMa5
+$$spell;Parching Wind;Perdo;Aquam;20;Voice;Mom;Part;;;Base 5, +2 Voice, +1 Part;;ArMa5
+$$spelleff;Damage;+10 (ignore armor);;;;;;;;;;ArMa5
+$$spell;Closing the Earth's Gate;Perdo;Aquam;25;Touch;Mom;Ind;;;Base 20, +1 Touch;;ArMa5
+$$spell;Curse of the Desert;Perdo;Aquam;25;Voice;Mom;Part;;;Base 10, +2 Voice, +1 Part;;ArMa5
+$$spelleff;Damage;+15 (ignore armor);;;;;;;;;;ArMa5
+$$spell;Calling the Odious Drought;Perdo;Aquam;50;Touch;Year;Bound;Ritual;Auram;Base 5, +1 Touch, +4 Year, +4 Boundary, no increase for requisite;;ArMa5
+$$spell;Ward Against Faeries of the Waters;Rego;Aquam;;Touch;Ring;Circle;;;Base spell;;ArMa5
+$$spell;Cloak of the Duck's Feathers;Rego;Aquam;5;Touch;Sun;Ind;;;Base 1, +1 Touch, +2 Sun, +1 for slightly unnatural control;+1 for slightly unnatural control;ArMa5
+$$spell;Break the Oncoming Wave;Rego;Aquam;10;Per;Conc;Ind;;;Base 5, +1 Conc, ward, so the target is the warded Individual, not the water;;ArMa5
+$$spell;Breath of Winter;Rego;Aquam;15;Touch;Sun;Part;;;Base 3, +1 Touch, +2 Sun, +1 Part;;ArMa5
+$$spell;Push of the Gentle Wave;Rego;Aquam;15;Voice;Conc;Ind;;;Base 4, +2 Voice, +1 Conc;;ArMa5
+$$spell;Bridge of Frost;Rego;Aquam;30;Voice;Sun;Part;;;Base 3, +2 Voice, +2 Sun, +1 Part, +1 size, +1 to allow various shapes;+1 size,+1 to allow various shapes;ArMa5
+$$spell;Chaos of the Angry Waves;Rego;Aquam;30;Voice;Conc;Part;;;Base 5, +2 Voice, +1 Conc, +1 Part, +1 size;+1 size;ArMa5
+$$spell;Parting the Waves;Rego;Aquam;30;Touch;Conc;Group;;;Base 10, +1 Touch, +1 Conc, +2 Group;;ArMa5
+$$spell;Waves of Drowning and Smashing;Rego;Aquam;30;Sight;Mom;Ind;;;Base 10, +3 Sight, +1 size;+1 size;ArMa5
+$$spell;Ice of Drowning;Rego;Aquam;35;Voice;Conc;Part;;;Base 5 (for the violent pounding), +2 Voice, +1 Concentration, +1 Part, +1 size, +1 additional effect, changing the water to ice;+1 size,+1 additional;ArMa5
+$$spell;Pull of the Watery Grave;Rego;Aquam;35;Sight;Conc;Ind;;;Base 10, +3 Sight, +1 Conc, +1 size;+1 size;ArMa5
+$$spell;Tower of Whirling Water;Rego;Aquam;35;Voice;Conc;Group;;;Base 10, +2 Voice, +1 Conc, +2 Group;;ArMa5
+$$spell;Neptune's Wrath;Rego;Aquam;40;Sight;Mom;Ind;Ritual;;Base 10, +3 Sight, +3 size, ritual for large effect;+3 size;ArMa5
+$$spell;Air's Ghostly Form;Creo;Auram;5;Touch;Diam;Ind;;;Base 2, +1 Touch, +1 Diam, +1 unnatural (the spell can be cast indoors);+1 unnatural;ArMa5
+$$spell;Chamber of Spring Breezes;Creo;Auram;5;Touch;Sun;Ind;;;Base 1, +1 Touch, +2 Sun, +1 unnatural;+1 unnatural;ArMa5
+$$spell;Jupiter's Resounding Blow;Creo;Auram;10;Voice;Mom;Ind;;;Base 3, +2 Voice, +1 unnatural (the spell functions indoors);+1 unnatural;ArMa5
+$$spell;Stench of the Twenty Corpses;Creo;Auram;10;Voice;Diam;Ind;;;Base 3, +2 Voice, +1 Diam;;ArMa5
+$$spell;Wreaths of Foul Smoke;Creo;Auram;10;Voice;Diam;Ind;;;Base 3, +2 Voice, +1 Diam;;ArMa5
+$$spell;Broom of the Winds;Creo;Auram;15;Voice;Mom;Ind;;;Base 3, +2 Voice, +2 unnatural;+2 unnatural;ArMa5
+$$spell;Charge of the Angry Winds;Creo;Auram;15;Voice;Conc;Ind;;;Base 3, +2 Voice, +1 Conc, +1 unnatural;+1 unnatural;ArMa5
+$$spell;Circling Winds of Protection;Creo;Auram;20;Touch;Conc;Ind;;Rego;Base 3, +1 Touch, +1 Conc, +2 unnatural, +1 Rego effect;+2 unnatural,+1 requisite;ArMa5
+$$spell;Clouds of Rain and Thunder;Creo;Auram;25;Sight;Conc;Group;;;Base 3, +3 Sight, +1 Conc, +2 Group;;ArMa5
+$$spell;Clouds of Summer Snow;Creo;Auram;25;Sight;Conc;Group;;;Base 2, +3 Sight, +1 Conc, +2 Group, +1 Size;+1 size;ArMa5
+$$spell;Pull of the Skybound Winds;Creo;Auram;30;Voice;Conc;Ind;;;Base 5, +2 Voice, +1 Conc, +2 unnatural;+2 unnatural;ArMa5
+$$spell;Wings of the Soaring Wind;Creo;Auram;30;Touch;Conc;Ind;;Rego;Base 5, +1 Touch, +1 Conc, +2 highly unnatural, +1 Rego requisite;+1 requisite,+2 highly unnatural;ArMa5
+$$spell;The Incantation of Lightning;Creo;Auram;35;Voice;Mom;Ind;;;Base 5, +2 Voice, +4 unnatural;+4 unnatural;ArMa5
+$$spelleff;Damage;+30;;;;;;;;;;ArMa5
+$$spell;Breath of the Open Sky;Creo;Auram;40;Touch;Conc;Ind;Ritual;;Base 5, +1 Touch, +1 Conc, +4 size, +1 unnatural, ritual because of spectacular effect;+1 unnatural,+4 size;ArMa5
+$$spell;Wrath of Whirling Winds and Water;Creo;Auram;65;Sight;Sun;Group;Ritual;;Base 5, +3 Sight, +2 Sun, +2 Group, +5 size;+5 size;ArMa5
+$$spell;True Sight of the Air;Intellego;Auram;15;Per;Sun;Vision;;;Base 1, +2 Sun, +4 Vision;;ArMa5
+$$spell;Whispering Winds;Intellego;Auram;15;Sight;Conc;Ind;;;Unique spell;;ArMa5
+$$spell;Sailor's Foretaste of the Morrow;Intellego;Auram;20;Touch;Mom;Group;;;Base 4, +1 Touch, +2 Group, +1 size;+1 size;ArMa5
+$$spell;Eyes of the Bat;Intellego;Auram;25;Per;Sun;Hearing;;;Base 4, +2 Sun, +3 Hearing;;ArMa5
+$$spell;Rain of Stones;Muto;Auram;20;Voice;Sun;Ind;;Terram;Base 4, +2 Voice, +2 Sun;;ArMa5
+$$spell;Talons of the Winds;Muto;Auram;20;Voice;Diam;Ind;;Rego;Base 4, +2 Voice, +1 Diam, +1 Rego requisite (additional effect: protect the caster);+1 requisite;ArMa5
+$$spell;Infernal Smoke of Death;Muto;Auram;40;Voice;Conc;Ind;;;Base 25, +2 Voice, +1 Conc;;ArMa5
+$$spell;Fog of Confusion;Muto;Auram;45;Touch;Year;Bound;Ritual;Imaginem,Rego;Base 2, +1 Touch, +4 Year, +4 Group, +1 Imaginem requisite, +1 Rego requisite;+1 Rego requisite,+1 Imaginem requisite;ArMa5
+$$spell;Rain of Oil;Muto;Auram;50;Sight;Sun;Ind;Ritual;Aquam;Base 4, +3 Sight, +2 Sun, +5 size;+5 size;ArMa5
+$$spell;Room of Stale Air;Perdo;Auram;15;Voice;Mom;Room;;;Base 3, +2 Voice, +2 Room;;ArMa5
+$$spell;Quiet the Raging Winds;Perdo;Auram;20;Touch;Mom;Group;;;Base 5, +1 Touch, +2 Group;;ArMa5
+$$spell;The Cloudless Sky Returned;Perdo;Auram;45;Sight;Mom;Group;;;Base 10, +3 Sight, +2 Group, +2 size;+2 size;ArMa5
+$$spell;Ward Against Faeries of the Air;Rego;Auram;;Touch;Ring;Circle;;;;;ArMa5
+$$spell;Wind at the Back;Rego;Auram;5;Touch;Sun;Ind;;;Base 2, +1 Touch, +2 Sun (closest duration to special effect);;ArMa5
+$$spell;Ward Against Rain;Rego;Auram;10;Per;Sun;Ind;;;Base 4, +2 Sun;;ArMa5
+$$spell;Clouds of Thunderous Might;Rego;Auram;30;Sight;Conc;Group;;;Base 4, +3 Sight, +1 Conc, +2 Group;;ArMa5
+$$spell;Gathering of the Stormy Might;Rego;Auram;40;Sight;Conc;Group;;;Base 4, +3 Sight, +1 Conc, +2 Group, +2 size;+2 size;ArMa5
+$$spell;Bind Wound;Creo;Corpus;10;Touch;Sun;Ind;;;Base 3, +1 Touch, +2 Sun;;ArMa5
+$$spell;Charm Against Putrefaction;Creo;Corpus;10;Touch;Moon;Ind;;;Base 2, +1 Touch, +3 Moon;;ArMa5
+$$spell;The Chirurgeon's Healing Touch;Creo;Corpus;20;Touch;Mom;Ind;Ritual;;Base 15, +1 Touch;;ArMa5
+$$spelleff;Heal;Light;;;;;;;;;;ArMa5
+$$spell;Gentle Touch of the Purified Body;Creo;Corpus;20;Touch;Mom;Ind;Ritual;;Base 15, +1 Touch;;ArMa5
+$$spell;Purification of the Festering Wounds;Creo;Corpus;20;Touch;Moon;Ind;;;Base 4, +1 Touch, +3 Moon;;ArMa5
+$$spelleff;Bonus;Recovery+9;;;;;;;;;;ArMa5
+$$spell;Restoration of the Defiled Body;Creo;Corpus;25;Touch;Mom;Ind;Ritual;;Base 20, +1 Touch;;ArMa5
+$$spell;The Severed Limb Made Whole;Creo;Corpus;25;Touch;Mom;Ind;Ritual;;Base 25, +1 Touch, -1 because the old limb is needed;-1 old limb is needed;ArMa5
+$$spell;Cheating the Reaper;Creo;Corpus;30;Touch;Mom;Ind;Ritual;;Base 25, +1 Touch;;ArMa5
+$$spell;Incantation of the Body Made Whole;Creo;Corpus;40;Touch;Mom;Ind;Ritual;;Base 35, +1 Touch;;ArMa5
+$$spelleff;Heal;All;;;;;;;;;;ArMa5
+$$spell;The Shadow of Life Renewed;Creo;Corpus;75;Touch;Mom;Ind;Ritual;Mentem;Base 70, +1 Touch, no addition for requisite;;ArMa5
+$$spell;Sight of the True Form;Intellego;Corpus;;Per;Mom;Vision;;;Variable base;;ArMa5
+$$spell;Physician's Eye;Intellego;Corpus;5;Touch;Mom;Ind;;;Base 4, +1 Touch;;ArMa5
+$$spell;Revealed Flaws of Mortal Flesh;Intellego;Corpus;10;Touch;Mom;Ind;;;Base 5, +1 Touch;;ArMa5
+$$spell;Whispers Through the Black Gate;Intellego;Corpus;15;Touch;Conc;Ind;;Mentem;Base 5, +1 Touch, +1 Conc, no cost for requisite;;ArMa5
+$$spell;The Inexorable Search;Intellego;Corpus;20;Arc;Conc;Ind;;;Base 3, +4 Arc, +1 Conc;;ArMa5
+$$spell;The Eye of the Sage;Intellego;Corpus;30;Arc;Conc;Ind;;Imaginem;Base 4, +4 Arc, +1 Conc, +1 requisite;+1 requisite;ArMa5
+$$spell;Eyes of the Cat;Muto;Corpus;5;Touch;Sun;Ind;;Animal;Base 2, +1 Touch, +2 Sun, requisite free;;ArMa5
+$$spell;Disguise of the New Visage;Muto;Corpus;15;Touch;Sun;Part;;;Base 3, +1 Touch, +2 Sun, +1 Part;;ArMa5
+$$spell;Preternatural Growth and Shrinking;Muto;Corpus;15;Touch;Sun;Ind;;;Base 3, +1 Touch, +2 Sun, +1 because the spell allows growth or two kinds of shrinking;+1 variable effect;ArMa5
+$$spell;Arm of the Infant;Muto;Corpus;20;Voice;Sun;Part;;;Base 3, +2 Voice, +2 Sun, +1 Part;;ArMa5
+$$spell;Gift of the Bear's Fortitude;Muto;Corpus;25;Per;Sun;Ind;;;Base 15, +2 Sun;;ArMa5
+$$spelleff;Bonus;Soak+3;;;;;;;;;;ArMa5
+$$spell;Shape of the Woodland Prowler;Muto;Corpus;25;Touch;Sun;Ind;;Animal;Base 10, +1 Touch, +2 Sun;;ArMa5
+$$spell;Cloak of Black Feathers;Muto;Corpus;30;Per;Sun;Ind;;Animal;Base 20, +2 Sun;;ArMa5
+$$spell;Curse of Circe;Muto;Corpus;30;Voice;Sun;Ind;;Animal;Base 10, +2 Voice, +2 Sun;;ArMa5
+$$spell;Stance of the Patient Tree;Muto;Corpus;35;Per;Sun;Ind;;Herbam;Base 25, +2 Sun;;ArMa5
+$$spell;Cloak of Mist;Muto;Corpus;40;Per;Sun;Ind;;Auram;Base 30, +2 Sun;;ArMa5
+$$spell;Transform to Water;Muto;Corpus;40;Per;Sun;Ind;;Aquam;Base 30, +2 Sun;;ArMa5
+$$spell;The Silent Vigil;Muto;Corpus;45;Per;Moon;Ind;;Terram;Base 25, +3 Moon, +1 for special effect;+1 special effect;ArMa5
+$$spell;Mists of Change;Muto;Corpus;60;Voice;Year;Bound;Ritual;Animal;Base 10, +2 Voice, +4 Year, +4 Bound, +1 slightly nonstandard effect, mist and wind are cosmetic only;+1 nonstandard effect;ArMa5
+$$spell;Touch of the Goose Feather;Perdo;Corpus;5;Voice;Mom;Ind;;;Base 3, +2 Voice;;ArMa5
+$$spell;Dust to Dust;Perdo;Corpus;15;Voice;Mom;Ind;;;Base 5, +2 Voice;;ArMa5
+$$spell;The Wound that Weeps;Perdo;Corpus;15;Voice;Mom;Ind;;;Base 5, +2 Voice;;ArMa5
+$$spelleff;Wound;Light;;;;;;;;;;ArMa5
+$$spell;Invocation of Weariness;Perdo;Corpus;20;Voice;Mom;Ind;;;Base 10, +2 Voice;;ArMa5
+$$spell;Bane of the Decrepit Body;Perdo;Corpus;25;Voice;Mom;Ind;;;Base 15, +2 Voice;;ArMa5
+$$spell;Curse of the Leprous Flesh;Perdo;Corpus;25;Touch;Mom;Ind;;;Base 20, +1 Touch;;ArMa5
+$$spell;Grip of the Choking Hand;Perdo;Corpus;25;Voice;Conc;Ind;;;Base 10, +2 Voice, +1 Conc;;ArMa5
+$$spell;Incantation of the Milky Eyes;Perdo;Corpus;30;Voice;Mom;Ind;;;Base 20, +2 Voice;;ArMa5
+$$spelleff;Wound Effect;Heavy,Blindness;;;;;;;;;;ArMa5
+$$spell;Twist of the Tongue;Perdo;Corpus;30;Voice;Mom;Part;;;Base 15, +2 Voice, +1 Part;;ArMa5
+$$spell;Clenching Grasp of the Crushed Heart;Perdo;Corpus;40;Voice;Mom;Ind;;;Base 30, +2 Voice;;ArMa5
+$$spell;The Kiss of Death;Perdo;Corpus;45;Touch;Mom;Ind;;;Base 30, +1 Touch, +2 for no words;+2 no words;ArMa5
+$$spell;Curse of the Unportended Plague;Perdo;Corpus;55;Sight;Mom;Bound;Ritual;;Base 20, +3 Sight, +4 Bound;;ArMa5
+$$spell;Curse of the Unruly Tongue;Rego;Corpus;5;Voice;Conc;Ind;;;Base 2, +2 Voice, +1 Conc;;ArMa5
+$$spell;Spasms of the Uncontrolled Hand;Rego;Corpus;5;Voice;Conc;Ind;;;Base 2, +2 Voice, +1 Conc;;ArMa5
+$$spell;Rise of the Feathery Body;Rego;Corpus;10;Touch;Conc;Ind;;;Base 4, +1 Touch, +1 Conc;;ArMa5
+$$spell;Despair of the Quivering Manacles;Rego;Corpus;15;Voice;Conc;Ind;;;Base 4, +2 Voice, +1 Conc;;ArMa5
+$$spell;Endurance of the Berserkers;Rego;Corpus;15;Per;Conc;Ind;;;Base 10, +1 Conc;;ArMa5
+$$spell;Gift of the Frog's Legs;Rego;Corpus;15;Touch;Mom;Ind;;;Base 10, +1 Touch.;;ArMa5
+$$spell;Lifting the Dangling Puppet;Rego;Corpus;15;Voice;Conc;Ind;;;Base 4, +2 Voice, +1 Conc;;ArMa5
+$$spell;The Gift of Vigor;Rego;Corpus;20;Touch;Mom;Ind;;;Base 15, +1 Touch;;ArMa5
+$$spell;Awaken the Slumbering Corpse;Rego;Corpus;25;Voice;Conc;Ind;;;Base 10, +2 Voice, +1 Conc;;ArMa5
+$$spell;Strings of the Unwilling Marionette;Rego;Corpus;25;Voice;Conc;Ind;;;Base 10, +2 Voice, +1 Conc;;ArMa5
+$$spell;Seven-League Stride;Rego;Corpus;30;Per;Mom;Ind;;;Base 30;;ArMa5
+$$spell;The Leap of Homecoming;Rego;Corpus;35;Per;Mom;Ind;;;Base 35;;ArMa5
+$$spell;The Walking Corpse;Rego;Corpus;35;Touch;Year;Ind;Ritual;Mentem;Base 10, +1 Touch, +4 Year;;ArMa5
+$$spell;Conjure the Sturdy Vine;Creo;Herbam;5;Voice;Sun;Ind;;;Base 1, +2 Voice, +2 Sun;;ArMa5
+$$spell;Trap of the Entwining Vines;Creo;Herbam;15;Voice;Sun;Group;;;Base 1, +2 Voice, +2 Sun, +2 Group;;ArMa5
+$$spell;Bridge of Wood;Creo;Herbam;20;Touch;Sun;Ind;;;Base 3, +1 Touch, +2 Sun, +2 size;+2 size;ArMa5
+$$spell;Wall of Thorns;Creo;Herbam;20;Voice;Sun;Group;;;Base 1, +2 Voice, +2 Sun, +2 Group, +1 size;+1 size;ArMa5
+$$spell;Wall of Living Wood;Creo;Herbam;25;Voice;Sun;Ind;;;Base 3, +2 Voice, +2 Sun, +2 size;+2 size;ArMa5
+$$spell;The Bountiful Feast;Creo;Herbam;35;Touch;Year;Bound;Ritual;;Base 1, +1 Touch, +4 Year, +4 Bound, +1 Size (for a total of +4 Size, including the +3 from the guideline, so that the area affected is up to about 6 miles across;+1 size;ArMa5
+$$spell;Probe Nature's Hidden Lore;Intellego;Herbam;4;Touch;Mom;Ind;;;Base 3, +1 Touch;;ArMa5
+$$spell;Hunt for the Wild Herb;Intellego;Herbam;5;Per;Conc;Smell;;;Base 2, +1 Conc, +2 Smell;;ArMa5
+$$spell;Intuition of the Forest;Intellego;Herbam;10;Touch;Sun;Group;;;Base 1, +1 Touch, +2 Sun, +2 Group;;ArMa5
+$$spell;Shriek of the Impending Shafts;Intellego;Herbam;15;Per;Sun;Hearing;;;Base 2, +2 Sun, +2 Hearing;;ArMa5
+$$spell;Converse with Plant and Tree;Intellego;Herbam;25;Touch;Conc;Ind;;;Base 15, +1 Touch, +1 Conc;;ArMa5
+$$spell;Pass the Unyielding Portal;Muto;Herbam;5;Touch;Diam;Ind;;;Base 3, +1 Touch, +1 Diameter;;ArMa5
+$$spell;Transformation of the Thorny Staff;Muto;Herbam;10;Touch;Sun;Ind;;;Base 3, +1 Touch, +2 Sun;;ArMa5
+$$spell;Piercing Shaft of Wood;Muto;Herbam;10;Voice;Mom;Ind;;Rego;Base 3, +2 Voice, +1 Rego effect;+1 Rego effect;ArMa5
+$$spell;Rope of Bronze;Muto;Herbam;15;Touch;Sun;Ind;;Terram;Base 4, +1 Touch, +2 Sun, no cost for requisite;;ArMa5
+$$spell;Thaumaturgical Transformation of Plants to Iron;Muto;Herbam;20;Touch;Sun;Ind;;Terram;Base 4, +1 Touch, +2 Sun, +1 size, no cost for requisite;+1 size;ArMa5
+$$spell;Stir the Slumbering Tree;Muto;Herbam;25;Touch;Sun;Ind;;Mentem;Base 4, +1 Touch, +2 Sun, +2 size;+2 size;ArMa5
+$$spell;Curse of the Haunted Forest;Muto;Herbam;60;Touch;Year;Group;Ritual;Perdo;Base 4, +1 Touch, +4 Year, +2 Group, +5 size;+5 size;ArMa5
+$$spell;Curse of the Rotted Wood;Perdo;Herbam;5;Touch;Mom;Ind;;;Base 4, +1 Touch;;ArMa5
+$$spell;Wizard's Autumn;Perdo;Herbam;15;Touch;Mom;Group;;;Base 2, +1 Touch, +2 Group, +2 size;+2 size;ArMa5
+$$spell;Plant's Withering Bane;Perdo;Herbam;20;Voice;Mom;Ind;;;Base 5, +2 Voice, +1 size;+1 size;ArMa5
+$$spell;The Great Rot;Perdo;Herbam;25;Voice;Mom;Group;;;Base 4, +2 Voice, +2 Group, +1 size;+1 size;ArMa5
+$$spell;Treading the Ashen Path;Perdo;Herbam;30;Touch;Mom;Group;;;Base 3, +1 Touch, +2 Group, +3 size, +1 fancy effect (the spell effectively keeps being cast while the caster walks seven miles);+3 size,+1 fancy effect;ArMa5
+$$spell;Ward Against Faeries of the Wood;Rego;Herbam;;Touch;Ring;Circle;;;Base effect;;ArMa5
+$$spell;Dance of the Staves;Rego;Herbam;5;Voice;Mom;Ind;;;Base 3, +2 Voice;;ArMa5
+$$spell;Repel the Wooden Shafts;Rego;Herbam;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Strike of the Angered Branch;Rego;Herbam;15;Voice;Conc;Part;;;Base 3, +2 Voice, +1 Conc, +1 Part;;ArMa5
+$$spell;Tangle of Wood and Thorns;Rego;Herbam;15;Voice;Conc;Ind;;;Base 3, +2 Voice, +1 Conc, +1 Muto requisite;+1 Muto requisite;ArMa5
+$$spell;Coils of the Entangling Plants;Rego;Herbam;20;Voice;Conc;Group;;;Base 3, +2 Voice, +1 Conc, +2 Group;;ArMa5
+$$spell;Lord of the Trees;Rego;Herbam;25;Voice;Conc;Ind;;;Base 4, +2 Voice, +1 Conc, +2 size;+2 size;ArMa5
+$$spell;The Treacherous Spear;Rego;Herbam;25;Voice;Diam;Ind;;;Base 10, +2 Voice, +1 Diam;;ArMa5
+$$spell;Twist the Living Tree;Rego;Herbam;25;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun, +2 size;+2 size;ArMa5
+$$spell;Ward Against Wood;Rego;Herbam;25;Per;Sun;Ind;;;Base 15, +2 Sun;;ArMa5
+$$spell;Freeing the Striding Tree;Rego;Herbam;30;Voice;Conc;Ind;;;Base 5, +2 Voice, +1 Conc, +2 size;+2 size;ArMa5
+$$spell;Calling the Council of the Trees;Rego;Herbam;45;Touch;Moon;Bound;Ritual;Intellego;Base 5, +1 Touch, +3 Moon, +4 Bound, no cost for Intellego effect;;ArMa5
+$$spell;Moonbeam;Creo;Ignem;3;Touch;Conc;Ind;;;Base 1, +1 Touch, +1 Conc;;ArMa5
+$$spell;Palm of Flame;Creo;Ignem;5;Touch;Conc;Ind;;;Base 3, +1 Touch, +1 Conc;;ArMa5
+$$spell;Heat of the Searing Forge;Creo;Ignem;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Lamp Without Flame;Creo;Ignem;10;Touch;Conc;Ind;;;Base 4, +1 Touch, +1 Conc;;ArMa5
+$$spell;Blade of the Virulent Flame;Creo;Ignem;15;Touch;Diam;Ind;;;Base 5, +1 Touch, +1 Diameter;;ArMa5
+$$spell;Flash of the Scarlet Flames;Creo;Ignem;15;Voice;Mom;Ind;;;Base 5, +2 Voice;;ArMa5
+$$spell;Pilum of Fire;Creo;Ignem;20;Voice;Mom;Ind;;;Base 10, +2 Voice;;ArMa5
+$$spelleff;Damage;+15;;;;;;;;;;ArMa5
+$$spell;Arc of Fiery Ribbons;Creo;Ignem;25;Voice;Mom;Group;;;Base 5, +2 Voice, +2 Group;;ArMa5
+$$spelleff;Damage;+10;;;;;;;;;;ArMa5
+$$spell;Coat of Flame;Creo;Ignem;25;Voice;Diam;Ind;;Rego;Base 5, +2 Voice, +1 Diam, +1 Rego requisite;+1 requisite;ArMa5
+$$spell;Ball of Abysmal Flame;Creo;Ignem;35;Voice;Mom;Ind;;;Base 25, +2 Voice, the ball appearing to shoot from your hand is a cosmetic effect;;ArMa5
+$$spelleff;Damage;+30;;;;;;;;;;ArMa5
+$$spell;Circle of Encompassing Flames;Creo;Ignem;35;Voice;Conc;Ind;;;Base 20, +2 Voice, +1 Conc;;ArMa5
+$$spell;Tales of the Ashes;Intellego;Ignem;5;Touch;Conc;Ind;;;Base 3, +1 Touch, +1 Conc;;ArMa5
+$$spell;Shadows of the Fires Past;Intellego;Ignem;15;Per;Mom;Vision;;;Base 3, +4 Vision;;ArMa5
+$$spell;Vision of Heat's Light;Intellego;Ignem;20;Per;Sun;Vision;;;Base 2, +2 Sun, +4 Vision;;ArMa5
+$$spell;Eyes of the Flame;Intellego;Ignem;35;Arc;Conc;Ind;;;Base 10, +4 Arc, +1 Conc;;ArMa5
+$$spell;Words of the Flickering Flame;Intellego;Ignem;35;Voice;Conc;Ind;;;Base 20, +2 Voice, +1 Conc;;ArMa5
+$$spell;The Many-Hued Conflagration;Muto;Ignem;5;Voice;Mom;Ind;;;Base 3, +2 Voice;;ArMa5
+$$spell;Show of the Flames and Smoke;Muto;Ignem;10;Voice;Conc;Ind;;;Base 3, +2 Voice, +1 Conc;;ArMa5
+$$spell;Hornet Fire;Muto;Ignem;10;Voice;Conc;Ind;;Rego;Base 2, +2 Voice, +1 Conc, +1 Rego requisite;+1 requisite;ArMa5
+$$spell;Prison of Flames;Muto;Ignem;20;Voice;Sun;Ind;;;Base 3, +2 Voice, +2 Sun, +1 Size;+1 size;ArMa5
+$$spell;Trapping the Fire;Muto;Ignem;25;Voice;Sun;Ind;;Terram;Base 5, +2 Voice, +2 Sun, requisite is free;;ArMa5
+$$spell;Flames of Sculpted Ice;Muto;Ignem;35;Voice;Sun;Ind;;Aquam;Base 5, +2 Voice, +2 Sun, +2 size;+2 size;ArMa5
+$$spell;Gloom of Evening;Perdo;Ignem;10;Touch;Diam;Room;;;Base 2, +1 Touch, +1 Diam, +2 Room;;ArMa5
+$$spell;Winter's Icy Touch;Perdo;Ignem;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Soothe the Raging Flames;Perdo;Ignem;20;Voice;Mom;Ind;;;Base 10, +2 Voice;;ArMa5
+$$spell;Well Without Light;Perdo;Ignem;25;Touch;Sun;Str;;;Base 3, +1 Touch, +2 Sun, +3 Str;;ArMa5
+$$spell;Conjuration of the Indubitable Cold;Perdo;Ignem;25;Voice;Mom;Part;;;Base 4, +2 Voice, +1 Part, +2 size;+2 size;ArMa5
+$$spell;Wizard's Icy Grip;Perdo;Ignem;30;Voice;Mom;Ind;;;Base 20, +2 Voice;;ArMa5
+$$spell;Wizard's Eclipse;Perdo;Ignem;35;Touch;Diam;Bound;Ritual;;Base 2, +1 Touch, +1 Diam, +4 Bound, +3 size;+3 size;ArMa5
+$$spell;Tremulous Vault of the Torch's Flame;Rego;Ignem;5;Voice;Mom;Ind;;;Base 3, +2 Voice;;ArMa5
+$$spell;Leap of the Fire;Rego;Ignem;10;Voice;Mom;Ind;;;Base 3, +2 Voice, +1 size;+1 size;ArMa5
+$$spell;Light Shaft of the Night;Rego;Ignem;20;Voice;Conc;Group;;;Base 3, +2 Voice, +1 Conc, +2 Group;;ArMa5
+$$spell;Burst of the Sweeping Flames;Rego;Ignem;25;Sight;Mom;Ind;;;Base 10 (4 + 2 magnitudes for the intensity of the fire), +3 Sight;+2 intensity;ArMa5
+$$spell;Ward Against Heat and Flames;Rego;Ignem;25;Touch;Sun;Ind;;;Base 4, +2 for up to +15 damage, +1 Touch, +2 Sun;+2 for +15 damage;ArMa5
+$$spell;Phantasm of the Talking Head;Creo;Imaginem;10;Voice;Diam;Ind;;;Base 2, +2 Voice, +1 Diam, +1 intelligible speech;+1 intelligible speech;ArMa5
+$$spell;Phantasmal Animal;Creo;Imaginem;20;Voice;Diam;Ind;;;Base 3, +2 Voice, +1 Diam, +2 move under your command;+2 commands;ArMa5
+$$spell;Phantasmal Fire;Creo;Imaginem;20;Voice;Sun;Ind;;Ignem;Base 3, +2 Voice, +2 Sun, +1 for light from Ignem requisite;+1 requisite;ArMa5
+$$spell;Phantasm of the Human Form;Creo;Imaginem;25;Voice;Sun;Ind;;;Base 2, +2 Voice, +2 Sun, +2 move at your command, +1 intricacy;+2 command,+1 intricacy;ArMa5
+$$spell;Haunt of the Living Ghost;Creo;Imaginem;35;Arc;Conc;Ind;;Intellego;Base 2, +4 Arc, +1 Conc, +2 move at your command, +1 intricacy, +1 Intellego requisite;+2 command,+1 intricacy,+1 requisite;ArMa5
+$$spell;The Shadow of Human Life;Creo;Imaginem;40;Touch;Sun;Ind;;Mentem;Base 2, +1 Touch, +2 Sun, +1 intricacy, +6 Mentem requisite, for a very elaborate effect;+1 intricacy,+6 Mentem requisite;ArMa5
+$$spell;Discern the Images of Truth and Falsehood;Intellego;Imaginem;;Per;Conc;Vision;;;Base effect, +1 Conc;;ArMa5
+$$spell;Prying Eyes;Intellego;Imaginem;5;Touch;Conc;Room;;;Base 1, +1 Touch, +1 Conc, +2 Room;;ArMa5
+$$spell;Discern Own Illusions;Intellego;Imaginem;15;Per;Sun;Vision;;;Base 1, +2 Sun, +4 Vision;;ArMa5
+$$spell;The Ear for Distant Voices;Intellego;Imaginem;20;Arc;Conc;Room;;;Base 1, +4 Arc, +1 Conc, +2 Room;;ArMa5
+$$spell;Eyes of the Eagle;Intellego;Imaginem;25;Per;Sun;Vision;;;Base 3, +2 Sun, +4 Vision;;ArMa5
+$$spell;Summoning the Distant Image;Intellego;Imaginem;25;Arc;Conc;Room;;;Base 2, +4 Arc, +1 Conc, +2 Room;;ArMa5
+$$spell;Taste of the Spices and Herbs;Muto;Imaginem;5;Touch;Sun;Ind;;;Base 2, +1 Touch, +2 Sun;;ArMa5
+$$spell;Aura of Ennobled Presence;Muto;Imaginem;10;Touch;Sun;Ind;;;Base 3, +1 Touch, +2 Sun;;ArMa5
+$$spell;Notes of a Delightful Sound;Muto;Imaginem;10;Touch;Sun;Room;;;Base 1, +1 Touch, +2 Sun, +2 Room;;ArMa5
+$$spell;Disguise of the Transformed Image;Muto;Imaginem;15;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun;;ArMa5
+$$spell;Image Phantom;Muto;Imaginem;20;Touch;Sun;Ind;;;Base 5, +1 Touch, +2 Sun;;ArMa5
+$$spell;Dispel the Phantom Image;Perdo;Imaginem;;Voice;Mom;Ind;;;Base effect;;ArMa5
+$$spell;Taste of the Dulled Tongue;Perdo;Imaginem;5;Touch;Sun;Ind;;;Base 2, +1 Touch, +2 Sun;;ArMa5
+$$spell;Illusion of Cool Flames;Perdo;Imaginem;10;Voice;Sun;Ind;;;Base 2, +2 Voice, +2 Sun;;ArMa5
+$$spell;Invisibility of the Standing Wizard;Perdo;Imaginem;15;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun;;ArMa5
+$$spell;Veil of Invisibility;Perdo;Imaginem;20;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun, +1 changing image;+1 changing image;ArMa5
+$$spell;Removal of the Conspicuous Sigil;Perdo;Imaginem;20;Touch;Sun;Part;;;Base 4, +1 Touch, +2 Sun, +1 Part;;ArMa5
+$$spell;Silence of the Smothered Sound;Perdo;Imaginem;20;Voice;Sun;Ind;;;Base 3, +2 Voice, +2 Sun, +1 changing image;+1 changing image;ArMa5
+$$spell;Chamber of Invisibility;Perdo;Imaginem;25;Touch;Sun;Group;;;Base 4, +1 Touch, +2 Sun, +2 Group;;ArMa5
+$$spell;Restore the Moved Image;Rego;Imaginem;;Voice;Mom;Ind;;;Base effect;;ArMa5
+$$spell;Illusion of the Shifted Image;Rego;Imaginem;10;Voice;Sun;Ind;;;Base 2, +2 Voice, +2 Sun;;ArMa5
+$$spell;Wizard's Sidestep;Rego;Imaginem;10;Per;Sun;Ind;;;Base 2, +2 Sun, +1 changing image, +1 moved image matches changes;+1 changing image,+1 moved image matches changes;ArMa5
+$$spell;The Captive Voice;Rego;Imaginem;25;Voice;Sun;Part;;;Base 4, +2 Voice, +2 Sun, +1 Part;;ArMa5
+$$spell;Confusion of the Insane Vibrations;Rego;Imaginem;30;Touch;Conc;Vision;;;Base 3, +1 Touch, +1 Conc, +4 Vision, +1 additional senses;+1 additional senses;ArMa5
+$$spell;Image from the Wizard Torn;Rego;Imaginem;30;Per;Conc;Ind;;Intellego;Base 15, +1 Conc, +1 additional sense, +1 Intellego requisite;+1 additional sense,+1 requisite;ArMa5
+$$spell;Illusion of the Misplaced Castle;Rego;Imaginem;50;Voice;Sun;Bound;Ritual;;Base 10, +2 Voice, +2 Sun, +4 Bound;;ArMa5
+$$spell;Seal the Earth;Creo;Terram;15;Voice;Sun;Group;;;Base 1, +2 Voice, +2 Sun, +2 Group;;ArMa5
+$$spell;Touch of Midas;Creo;Terram;20;Touch;Mom;Ind;Ritual;;Base 15, +1 Touch;;ArMa5
+$$spell;Wall of Protecting Stone;Creo;Terram;25;Voice;Sun;Ind;;;Base 3, +2 Voice, +2 Sun, +2 size;+2 size;ArMa5
+$$spell;Conjuring the Mystic Tower;Creo;Terram;35;Touch;Mom;Ind;Ritual;;Base 3, +1 Touch, +4 size, +3 elaborate design;+3 elaborate design,+4 size;ArMa5
+$$spell;Probe for Pure Silver;Intellego;Terram;4;Per;Mom;Smell;;;Base 2, +2 Smell;;ArMa5
+$$spell;Eyes of the Eons;Intellego;Terram;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Eyes of the Treacherous Terrain;Intellego;Terram;15;Per;Conc;Vision;;;Base 2, +1 Conc, +4 Vision;;ArMa5
+$$spell;The Miner's Keen Eye;Intellego;Terram;20;Per;Conc;Vision;;;Base 2, +1 Conc, +4 Vision, +1 see through intervening material;+1 see through intervening material;ArMa5
+$$spell;Tracks of the Faerie Glow;Intellego;Terram;25;Per;Conc;Vision;;;Base 4, +1 Conc, +4 Vision;;ArMa5
+$$spell;Stone Tell of the Mind that Sits;Intellego;Terram;30;Touch;Conc;Ind;;;Base 20, +1 Touch, +1 Conc;;ArMa5
+$$spell;Sense the Feet that Tread the Earth;Intellego;Terram;30;Touch;Conc;Part;;;Base 4, +1 Touch, +1 Conc, +1 Part, +3 size;+3 size;ArMa5
+$$spell;The Crystal Dart;Muto;Terram;10;Voice;Mom;Ind;;Rego;Base 3, +2 Voice, +1 Rego requisite;+1 requisite;ArMa5
+$$spell;Supple Iron and Rigid Rope;Muto;Terram;10;Touch;Sun;Ind;;;Base 3, +1 Touch, +2 Sun;;ArMa5
+$$spell;Object of Increased Size;Muto;Terram;15;Touch;Sun;Ind;;;Base 4, +1 Touch, +2 Sun;;ArMa5
+$$spell;Rock of Viscid Clay;Muto;Terram;15;Touch;Sun;Part;;;Base 3, +1 Touch, +2 Sun, +1 Part;;ArMa5
+$$spell;Edge of the Razor;Muto;Terram;20;Touch;Sun;Ind;;;Base 3, +1 Touch, +2 Sun, +2 metal;+2 metal;ArMa5
+$$spell;Earth that Breaks No More;Muto;Terram;20;Touch;Sun;Part;;;Base 3, +1 Touch, +2 Sun, +1 Part, +1 size;+1 size;ArMa5
+$$spell;Teeth of the Earth Mother;Muto;Terram;35;Voice;Sun;Group;;;Base 3, +2 Voice, +2 Sun, +2 Group, +2 fancy effect;+2 fancy effect;ArMa5
+$$spell;Fist of Shattering;Perdo;Terram;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Rusted Decay of Ten-Score Years;Perdo;Terram;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;Pit of the Gaping Earth;Perdo;Terram;15;Voice;Mom;Part;;;Base 3, +2 Voice, +1 Part, +1 size;+1 size;ArMa5
+$$spell;Obliteration of the Metallic Barrier;Perdo;Terram;20;Touch;Mom;Ind;;Rego;Base 5, +1 Touch, +1 size, +1 Rego to fling the fragments away;+1 requisite,+1 size;ArMa5
+$$spell;Stone to Falling Dust;Perdo;Terram;20;Sight;Mom;Ind;;;Base 5, +3 Sight;;ArMa5
+$$spell;End of the Mighty Castle;Perdo;Terram;25;Voice;Mom;Str;;;Base 4, +2 Voice, +3 Str;;ArMa5
+$$spell;Cascade of Rocks;Perdo;Terram;40;Sight;Mom;Part;;;Base 4, +3 Sight, +1 Part, +4 size;+4 size;ArMa5
+$$spell;Ward Against Faeries of the Mountain;Rego;Terram;;Touch;Ring;Circle;;;;;ArMa5
+$$spell;Unseen Arm;Rego;Terram;5;Voice;Conc;Ind;;;Base 2, +2 Voice, +1 Conc;;ArMa5
+$$spell;Trackless Step;Rego;Terram;10;Touch;Conc;Ind;;;Base 4, +1 Touch, +1 Conc;;ArMa5
+$$spell;Wielding the Invisible Sling;Rego;Terram;10;Voice;Mom;Ind;;;Base 4, +2 Voice;;ArMa5
+$$spell;The Unseen Porter;Rego;Terram;10;Voice;Conc;Ind;;;Base 3, +2 Voice, +1 Conc;;ArMa5
+$$spell;The Earth's Carbuncle;Rego;Terram;15;Voice;Mom;Part;;Muto;Base 3, +2 Voice, +1 Part, +1 Muto requisite;+1 requisite;ArMa5
+$$spell;Hands of the Grasping Earth;Rego;Terram;15;Voice;Diam;Part;;Muto;Base 3, +2 Voice, +1 Diam, +1 Part, requisite free;;ArMa5
+$$spell;Crest of the Earth Wave;Rego;Terram;20;Voice;Mom;Part;;;Base 3, +2 Voice, +1 Part, +2 size;+2 size;ArMa5
+$$spell;The Forgiving Earth;Rego;Terram;20;Voice;Sun;Part;;;Base 2, +2 Voice, +2 Sun, +1 Part, +1 size;+1 size;ArMa5
+$$spell;Unyielding Earth;Rego;Terram;20;Voice;Sun;Part;;;Base 2, +2 Voice, +2 Sun, +1 Part, +1 size;+1 size;ArMa5
+$$spell;Earth Shock;Rego;Terram;30;Voice;Mom;Part;;;Base 3, +2 Voice, +1 Part, +4 size;+4 size;ArMa5
+$$spell;The Earth Split Asunder;Rego;Terram;25;Voice;Mom;Part;;;Base 3, +2 Voice, +1 Part, +2 size, +1 fancy effect;+2 size,+1 fancy effect;ArMa5
+$$spell;Creeping Chasm;Rego;Terram;35;Voice;Mom;Part;;;Base 3, +2 Voice, +1 Part, +4 size, +1 fancy effect;+4 size,+1 fancy effect;ArMa5
+$$spell;Hermes' Portal;Rego;Terram;75;Arc;Year;Ind;Ritual;;Mercurian Ritual;;ArMa5
+$$spell;Shell of False Determinations;Creo;Vim;;Touch;Mom;Ind;Ritual;;Base effect, +1 Touch;;ArMa5
+$$spell;Shell of Opaque Mysteries;Creo;Vim;;Touch;Mom;Ind;Ritual;;Base effect, +1 Touch;;ArMa5
+$$spell;The Phantom Gift;Creo;Vim;15;Voice;Sun;Ind;;;Base 3, +2 Voice, +2 Sun;;ArMa5
+$$spell;The Enigma's Gift;Creo;Vim;30;Voice;Mom;Ind;;;Base 20, +2 Voice;;ArMa5
+$$spell;The Invisible Eye Revealed;Intellego;Vim;;Per;Conc;Touch;;;Base effect;;ArMa5
+$$spell;Sense of Magical Power;Intellego;Vim;2;Touch;Mom;Ind;;;Base 1, +1 Touch;;ArMa5
+$$spell;Scales of the Magical Weight;Intellego;Vim;5;Touch;Mom;Ind;;;Base 4, +1 Touch;;ArMa5
+$$spell;Sense the Nature of Vis;Intellego;Vim;5;Touch;Mom;Ind;;;Base 4, +1 Touch;;ArMa5
+$$spell;Piercing the Divine Veil;Intellego;Vim;20;Per;Conc;Vision;;;Base 3, +1 Conc, +4 Vision;;ArMa5
+$$spell;Piercing the Faerie Veil;Intellego;Vim;20;Per;Conc;Vision;;;Base 3, +1 Conc, +4 Vision;;ArMa5
+$$spell;Piercing the Infernal Veil;Intellego;Vim;20;Per;Conc;Vision;;;Base 3, +1 Conc, +4 Vision;;ArMa5
+$$spell;Piercing the Magical Veil;Intellego;Vim;20;Per;Conc;Vision;;;Base 3, +1 Conc, +4 Vision;;ArMa5
+$$spell;Sense of the Lingering Magic;Intellego;Vim;30;Per;Conc;Hearing;;;Base 10, +1 Conc, +3 Hearing;;ArMa5
+$$spell;Sight of the Active Magics;Intellego;Vim;40;Per;Conc;Vision;;;Base 5, +1 Conc, +4 Vision, +2 Techniques and Forms;+2 Techniques and Forms;ArMa5
+$$spell;Mirror of Opposition (Animal);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Aquam);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Auram);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Corpus);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Herbam);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Ignem);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Imaginem);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Mentem);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Terram);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Mirror of Opposition (Vim);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Shroud Magic;Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;The Sorcerer's Fork;Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Animal);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Aquam);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Auram);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Corpus);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Herbam);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Ignem);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Imaginem);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Mentem);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Terram);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Boost (Vim);Muto;Vim;;Touch;Mom;Ind;;;Base effect, +1 Touch;;ArMa5
+$$spell;Wizard's Communion;Muto;Vim;;Voice;Mom;Group;;;Base effect;;ArMa5
+$$spell;Wizard's Reach (Animal);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Aquam);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Auram);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Corpus);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Herbam);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Ignem);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Imaginem);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Mentem);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Terram);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wizard's Reach (Vim);Muto;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Demon's Eternal Oblivion;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Disenchant;Perdo;Vim;;Touch;Mom;Ind;Ritual;;Base effect, +1 Touch;;ArMa5
+$$spell;Masking the Odor of Magic;Perdo;Vim;;Touch;Sun;Ind;;;Base effect, +1 Touch, +2 Sun;;ArMa5
+$$spell;Unravelling the Fabric of Animal;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Aquam;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Auram;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Corpus;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Herbam;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Ignem;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Imaginem;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Mentem;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Terram;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Unravelling the Fabric of Vim;Perdo;Vim;;Voice;Mom;Ind;;;Base effect, +2 Voice;;ArMa5
+$$spell;Wind of Mundane Silence;Perdo;Vim;;Voice;Mom;Room;;;Base effect, +2 Voice, +2 Room;;ArMa5
+$$spell;Aegis of the Hearth;Rego;Vim;;Touch;Year;Bound;Ritual;;;;ArMa5
+$$spell;Circular Ward Against Demons;Rego;Vim;;Touch;Ring;Circle;;;Base spell;;ArMa5
+$$spell;Maintaining the Demanding Spell;Rego;Vim;;Touch;Diam;Ind;;;Base effect, +1 Touch, +1 Diam;;ArMa5
+$$spell;Opening the Intangible Tunnel;Rego;Vim;;Arc;Conc;Ind;;;Base effect, +4 Arc, +1 Conc;;ArMa5
+$$spell;Suppressing the Wizard's Handiwork;Rego;Vim;;Touch;Conc;Ind;;;Base, +1 Touch, +1 Conc;;ArMa5
+$$spell;Watching Ward;Rego;Vim;;Touch;Spec;Ind;Ritual;;Base effect, +1 Touch, Duration is non-standard;;ArMa5
+$$spell;Gather the Essence of the Beast;Rego;Vim;15;Touch;Mom;Ind;;;Base 10, +1 Touch;;ArMa5
