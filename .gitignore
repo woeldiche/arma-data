@@ -1,4 +1,5 @@
-*/node_modules/
-*/data-output/
-*/data-source/
-
+**/node_modules
+**/data-output
+**/data-source
+**/.DS_Store
+**/Thumbs.db
